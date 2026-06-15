@@ -1,0 +1,65 @@
+.logo{
+    width:100px;
+    height:auto;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+/*Design de l'entete et du menu de navigation pour les rendre plus attrayants et professionnels. */
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*Style du menu de navigation pour le rendre plus convivial et facile à utiliser. */
+nav table{
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-style: solid;
+    text-align: center;
+    margin: 0 auto;
+
+}
+/*Style des boutons de navigation pour les rendre plus attrayants et interactifs. */
+.btn{
+    text-decoration: none;
+    color: grey;
+    padding: 12px 25px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s ease;
+}
+/* Mouvement de la souris sur les boutons pour les rendre plus interactifs et attrayants. */
+.btn:hover{
+    background-color: #333;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    
+}
+/*Style des liens dans les cellules de la table pour les rendre plus attrayants et faciles à lire. */
+td a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+/*Style du texte dans le marquee pour le rendre plus attrayant et facile à lire. */
+.H2{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   margin-top: 20px;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
